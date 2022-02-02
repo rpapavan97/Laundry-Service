@@ -1,0 +1,75 @@
+.register{
+    height: 610px;
+    width: 100%;
+
+}
+
+.register_left{
+    width: 35%;
+    float: left;
+}
+
+.register_company{
+    margin: 20% 0 0 20%;
+    text-align: left;
+    font: normal normal 800 80px/100px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+}
+
+.register_caption_left{
+    margin: 5% 0 0 20%;
+    letter-spacing: 0.8px;
+    color: #565657;
+    font-size: 20px;
+}
+
+.register_tag{
+    margin: 15% 0 0 20%;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    color: #565657;
+}
+
+.register_right{
+    float: right;
+    width: 65%;
+    height: 610px;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+}
+
+.register_p{
+    margin: 5% 0 0 5%;
+    font: normal normal normal 30px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+}
+
+.register_form{
+    display: inline-block;
+    width: 800px;
+}
+
+.register_form1{
+    float: left;
+    margin: 5% 0 0 7%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register_form2{
+    float: right;
+    margin: 5% 0 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms{
+    display:"inline-block";
+    text-decoration: underline;
+font: normal normal normal 14px/20px Open Sans;
+letter-spacing: 0.49px;
+color: #5861AE;
+}
