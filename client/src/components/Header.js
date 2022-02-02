@@ -12,7 +12,9 @@ export default function Header(){
                     <li className="tabs">Home</li>
                     <li className="tabs">Pricing</li>
                     <li className="tabs">Career</li>
+                    <Link to="/">
                     <li className="btn">Sign In</li>
+                    </Link>
                 </ul>
             </nav>
         </header>
