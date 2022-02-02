@@ -1,0 +1,127 @@
+.title{
+    overflow:auto;
+    width: 100%;
+    height: 610px;
+}
+
+.left{
+    padding: 5% 0 0 10%;
+    float: left;
+    width: 40%;
+}
+
+.company{
+    text-align: left;
+    font: normal normal 900 100px/100px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+}
+
+.caption_left{
+    margin-top: 10%;
+    letter-spacing: 0.8px;
+    color: #565657;
+    font-size: 20px;
+}
+.tag{
+    margin-top: 10%;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    color: #565657;
+}
+
+.register_btn{
+    margin: 5% 0;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    background-color: white;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+}
+
+.register_btn:hover{
+    background-color: #4552C1;
+    color: white;
+    cursor: pointer;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 610px;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+}
+
+.signin{
+    margin-top: 20%;
+    margin-left: 25%;
+    font: normal normal normal 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+}
+
+.login_form{
+    margin-left: 25%;
+}
+
+.form_label{
+    margin-top: 2%;
+    font: normal normal normal 12px/15px Open Sans;
+letter-spacing: 0.42px;
+color: #5861AE;
+}
+
+.signin_btn{
+    margin: 6% 0 0 20%;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    background-color: #4552C1;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: white;
+    height: 50px;
+    width: 120px;
+}
+
+.signin_btn:hover{
+    background-color: white;
+    color: #4552C1;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #5861AE;
+    background-color: #F8F9FF;
+    width: 300px;
+    padding: 10px 0;
+  }
+
+  input[type=number] {
+    border: none;
+    border-bottom: 2px solid #5861AE;
+    background-color: #F8F9FF;
+    width: 300px;
+    padding: 10px 0;
+  }
+
+  input:focus{
+    outline: none;
+}
+
+  input[type=password] {
+      width: 300px;
+      padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #5861AE;
+    background-color: #F8F9FF;
+  }
+
+  .invalid{
+      font-size: 15px;
+      color: red;
+      margin-top: 1%;
+  }
